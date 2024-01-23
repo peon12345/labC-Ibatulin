@@ -102,7 +102,7 @@ bool appendContact(PhoneBook& book)
     return true;
 }
 
-std::string truncString( std::string str, int width)
+std::string truncString(const std::string& str, int width)
 {
     if (str.length() > width)
         return str.substr(0, width - 1) + ".";
