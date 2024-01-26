@@ -8,6 +8,11 @@ ClapTrap::ClapTrap(std::string name) : m_name(name),
     std::cout << "ClapTrap created" << std::endl;
 }
 
+ClapTrap::~ClapTrap()
+{
+   std::cout << "ClapTrap destroed" << std::endl;
+}
+
 void ClapTrap::attack(const std::string &target)
 {
     if (m_energyPoints > 0)
@@ -21,7 +26,7 @@ void ClapTrap::beRepaired(unsigned int amount)
 {
     if (m_energyPoints > 0)
     {
-        std::cout << m_name << "восстановил " << amount << " очков жизни." << std::endl;
+        std::cout << m_name << " восстановил " << amount << " очков жизни." << std::endl;
         m_hitPoints += amount;
         m_energyPoints -= 1;
     }
