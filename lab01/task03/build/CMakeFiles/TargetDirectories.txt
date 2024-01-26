@@ -1,0 +1,3 @@
+/home/fasol/labc++/labC-Ibatulin/lab01/task03/build/CMakeFiles/task03.dir
+/home/fasol/labc++/labC-Ibatulin/lab01/task03/build/CMakeFiles/edit_cache.dir
+/home/fasol/labc++/labC-Ibatulin/lab01/task03/build/CMakeFiles/rebuild_cache.dir
